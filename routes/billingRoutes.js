@@ -6,8 +6,8 @@ module.exports = (app) => {
     app.post('/api/stripe', requireLogin, async (req, res) => {
         const charge = await stripe.charges.create({
             amount: 500,
-            currency: 'INR',
-            description="₹5 for 5 email credits",
+            currency: 'USD',
+            description: "$5 for 5 email credits",
             source: req.body.id,
         });
 
