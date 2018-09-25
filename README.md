@@ -1,0 +1,3 @@
+# check the production version at : https://calm-coast-97918.herokuapp.com
+
+* However, Survey sending will not be functioning as due to privacy policy of SendGrid, I wasn't allowed to Signup thus incapable of getting an api key. But, soon it'll be fixed. So, stay tuned...
