@@ -31,9 +31,9 @@ class SurveyList extends Component {
 
     render() {
         return (
-            <div>
+            <React.Fragment>
                 {this.renderSurveys}
-            </div>
+            </React.Fragment>
         );
     }
 }
